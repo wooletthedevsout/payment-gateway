@@ -1,0 +1,21 @@
+{
+    "name": "wooletthedevsout/payment-gateway",
+    "description": "WLTDO payment gateway module.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "geral@meuppt.pt"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nette/php-generator": "4.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wooletthedevsout\\Payment\\": "src/"
+        }
+    }
+}
