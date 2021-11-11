@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "nette/php-generator": "4.0.x-dev"
+        "nette/php-generator": "4.0.x-dev",
+        "symfony/console": "6.0.x-dev"
     },
     "autoload": {
         "psr-4": {
